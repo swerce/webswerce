@@ -12,9 +12,8 @@ Add a catchy and exciting description of your project. Let users know what makes
 
 ## Features
 
-- 🌈 Amazing feature 1
-- ✨ Awesome feature 2
-- 🚀 Super cool feature 3
+- 🌈 Side navbar
+- ✨ Pixel Theme
 
 ## 📷 Screenshots
 
@@ -22,15 +21,8 @@ Include some captivating screenshots or GIFs showcasing your project. Visuals ca
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
-3. Install dependencies: `npm install`
-
-## Usage
-
-1. Start the server: `npm start`
-2. Open your browser and visit: `http://localhost:3000`
-3. Explore the amazing features of the project! 🎉🌟
+1. Clone the repository: `git clone https://github.com/swerce/webswerce`
+2. Open in browser: `index.html`
 
 ## Contributing
 
