@@ -8,7 +8,7 @@ Welcome to the Awesome Project! ✨🎉
 
 ## Description
 
-Add a catchy and exciting description of your project. Let users know what makes it unique and why they should check it out. 💪🌟
+A Website build by swerce. 💪🌟
 
 ## Features
 
@@ -17,7 +17,7 @@ Add a catchy and exciting description of your project. Let users know what makes
 
 ## 📷 Screenshots
 
-Include some captivating screenshots or GIFs showcasing your project. Visuals can help grab the attention of users and get them excited about your project. 📸🎞️
+coming soon...(because its not completed) 📸🎞️
 
 ## Installation
 
