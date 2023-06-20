@@ -3,7 +3,7 @@ var maintext = "welcome.";
 
 		"use strict"
 		var stage = {
-			w:1330,
+			w:2000,
 			h:400
 		}
 
