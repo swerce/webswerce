@@ -3,7 +3,7 @@ var maintext = "welcome.";
 
 		"use strict"
 		var stage = {
-			w:1280,
+			w:1330,
 			h:400
 		}
 
@@ -46,7 +46,7 @@ ctx.fillStyle='#00ff00';
 ctx.font = "bold 20px 'consolas'";
 ctx.textAlign = "left"; 
 ctx.textBaseline = "top"; 
-ctx.fillText(maintext,20,0);
+ctx.fillText(maintext,60,0);
 var img = ctx.getImageData(0,0,1280,20);
 console.log(img.data.length);
 
