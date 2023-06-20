@@ -1,4 +1,4 @@
-var maintext = "This is a text animation with pixelated texture. It uses Image Data from canvas. The image data on the canvas allows us to manipulate and change the pixels.";
+var maintext = "welcome.";
 
 
 		"use strict"
@@ -63,12 +63,12 @@ function enginestep() {
 			var myy = c*20+1;
 			ctx.fillStyle = colors[Math.floor(Math.random()*colors.length)];
 			ctx.fillRect(myx,myy,20,20);
-			// ctx.strokeStyle = colors[Math.floor(Math.random()*colors.length)];
-			// ctx.lineWidth = 3;
-			// ctx.beginPath();
-			// ctx.moveTo(myx+19+Math.sin(ga)*28,myy+19+Math.cos(ga)*28);
-			// ctx.lineTo(myx+19-Math.sin(ga)*28,myy+19-Math.cos(ga)*28);
-			// ctx.stroke();
+			//ctx.strokeStyle = colors[Math.floor(Math.random()*colors.length)];
+			//ctx.lineWidth = 3;
+			//ctx.beginPath();
+			//ctx.moveTo(myx+19+Math.sin(ga)*28,myy+19+Math.cos(ga)*28);
+			//ctx.lineTo(myx+19-Math.sin(ga)*28,myy+19-Math.cos(ga)*28);
+			//ctx.stroke();
 		}
 	}
 
@@ -98,8 +98,7 @@ function enginestep() {
 	}
 
 	// ctx.putImageData(img,0,700);
-	// var data = ctx.getImageData(0,0,200,200);
-
+	// var data = ctx.getImageData(0,0,200,200)//
 	// for (var i=0;i<2;i++)  {
 	// 	for (var b=0;b<2;b++)  {
 	// 		if (i==0&&b==0) {
@@ -198,7 +197,7 @@ function _pexresize() {
 		portrait = true;
 		scale = stage.w/cw;
 		loffset = 0;
-		toffset = Math.floor(ch-(cw*stage.h/stage.w))/2;
+		toffset = Math.floor(ch-(cw*stage.h/stage.w))/30;
 		_pexcanvas.style.width = cw + "px";
 		_pexcanvas.style.height = Math.floor(cw*stage.h/stage.w) + "px";
 	} else {
